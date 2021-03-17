@@ -1,0 +1,43 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.context-list {
+  margin: 20px 80px;
+  font-weight: 800;
+}
+
+.otherContext {
+  list-style: none;
+  color: rgb(78, 88, 92);
+  font-weight: 600;
+}
+
+.context-item {
+  cursor: pointer;
+}
+
+.sidebar-app, .sidebar-admin {
+  margin-left: 40px;
+  width: 200px;
+  height: 400px;
+}
+
+.sidebar-app {
+  background-color: rgba(111, 148, 129, 0.151);
+}
+
+.sidebar-admin {
+  background-color: rgb(197, 190, 181);
+}
+
+.sidebar-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.sidebar__items__item {
+  list-style: none;
+}
